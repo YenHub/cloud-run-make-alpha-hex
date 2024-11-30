@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["./src/**/*"],
+  "exclude": ["**/__test__/**"],
+  "rootDir": "./src",
+  "compilerOptions": {
+    "module": "node16",
+    "moduleResolution": "node16",
+    "noEmit": false,
+    "outDir": "./build",
+    "removeComments": true,
+    "noEmitOnError": true
+  }
+}

@@ -1,0 +1,10 @@
+# Config Files
+tsconfig.json
+eslint.config.mjs
+
+# Build Output
+build/
+
+# General
+*.md
+cloudconfig
