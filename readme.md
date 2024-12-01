@@ -82,7 +82,10 @@ curl 'localhost:8080' \
 Follow these steps to deploy the http function to Google Cloud using the cloud account you're currently authenticated and configured with.
 
 1. Copy the [.env.sample](./.env.sample) file and populate the `REGION` variable with your desired [cloud region](https://cloud.google.com/run/docs/locations)
-2. Run the deploy script `npm run deploy`
+   ```bash
+   cp .env.sample .env
+   ```
+3. Run the deploy script `npm run deploy`
 
 The http function will be created and the URL for the resource will be shown in the terminal.
 
